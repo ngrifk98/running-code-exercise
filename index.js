@@ -297,7 +297,7 @@ console.log("Your new total monthly subscription cost is: $", newTotal);
 */
 
 
-/* Here's what's happening: When the file is executed using Node, it reads the code from top to bottom. 
+/* Nicholas Kingston: So when the file is executed using Node, it reads the code from top to bottom. 
 The 'total' variable is declared and calculated before any changes are made to the subscription variables. 
 Therefore, it stores the original total value in memory. Any subsequent references to 'total' in the code 
 will still refer to this original value. The 'total' variable does not change based on the updates made to 
